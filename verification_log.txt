@@ -1,0 +1,14 @@
+--- BẮT ĐẦU KIỂM THỬ CHỮ KÝ (Code đã sửa cho v0.31.0) ---
+File: tampered.pdf
+Tìm thấy chữ ký trong field: 'Signature1'
+BƯỚC 1 & 2: Đã đọc Signature Dictionary và tách PKCS#7
+BƯỚC 5: Thiết lập Trust Root -> tin tưởng cert 'Common Name: My Test Key'
+BƯỚC 3-8: Bắt đầu quá trình xác thực mật mã...
+
+--- KẾT QUẢ XÁC THỰC (LOG) ---
+Tổng quan (Summary): INVALID
+(LƯU Ý) Kiểm tra toàn vẹn thất bại -> áp dụng: coi chữ ký là không hợp lệ
+Chữ ký hợp lệ (Valid): False
+Tính toàn vẹn (Integrity): False
+Hash Algorithm: sha256
+Padding/Signature Algorithm: sha256_rsa
